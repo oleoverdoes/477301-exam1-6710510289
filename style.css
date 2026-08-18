@@ -1,0 +1,15 @@
+<!-- /* 477-301 Exam 1 — ภูวเดช แก้วลอย, 6710510289 */ -->
+body {
+    background-color: #f7f4f0;
+    color: #3b2f2f;
+}
+
+header 
+    background-color: #3b2f2f;
+    color: #dbdbdb;
+    text-align: center;
+main {
+    max-width: 800px;
+    margin: 30px auto;
+    background: #bdb9b9;
+}
