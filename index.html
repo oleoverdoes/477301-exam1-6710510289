@@ -17,9 +17,9 @@
     <caption>เครื่องดื่มแนะนำ</caption>
     <table border="1"
         <tr>
-            <td>ลำดับ</td>
-            <td>รายการสินค้า</td>
-            <td>ราคา</td>
+            <th>ลำดับ</th>
+            <th>รายการสินค้า</th>
+            <th>ราคา</th>
         </tr>
         <tr>
             <td>1</td>
@@ -37,6 +37,38 @@
             <td>60</td>
         </tr>
     </table>
-
+    <h2 id="ss">เวลาทำการและเหตุผลที่ต้องมาร้านของเรา</h2>
+    <ul><li>เปิดให้บริการทุกวัน ตั้งแต่เวลา 07:00 - 18:00 น.</li>
+        <li>ส่วนตัวผมเป็นคนชอบทานกาแฟและชาจึงได้คัดสรรของคุณภาพเพื่อมาให้บริการทุกท่านครับ</li></ul>
+    <h2>ฟอร์มการสมัครงาน</h2>
+    <p> Fulltime เริ่มทำงานเวลา 06:00 - 19:00 น. </p>
+    <p> Parttime เริ่มทำงานเวลา 06:00 - 12:00 น. หรือ 11:00 - 19:00 น. </p>
+    <label for="type">ประเภทการทำงาน:</label>
+    <select name="type" id="type">
+        <option value="fulltime">Full Time</option>
+        <option value="parttime">Part Time</option>
+    </select>
+    <label for="Position">ตำแหน่งที่ต้องการสมัคร:</label>
+    <select name="Position" id="Position">
+        <option value="barista">บาริสต้า</option>
+        <option value="cashier">แคชเชียร์</option>
+        <option value="cleaner">พนักงานทำความสะอาด</option>
+    </select>
+    <br><br>
+    <label for="name">ชื่อ-นามสกุล:</label>
+    <input type="text" id="name" name="name" required>
+    <br><br>
+<label for="nationality">สัญชาติ:</label>
+    <input type="text" id="nationality" name="nationality" required>
+    <label for="age">วันเกิด:</label>
+    <input type="date" id="age" name="age" required>
+    <br><br>
+    <label for="email">อีเมล:</label>
+    <input type="email" id="email" name="email" required>
+    <label for="phone">เบอร์โทรศัพท์:</label>
+    <input type="text" id="phone" name="phone" required>
+    <br><br>
+    <input type="submit" value="ส่งข้อมูล">
+    <input type="reset" value="ยกเลิก">
 </body>
 </html>
